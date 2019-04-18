@@ -1260,33 +1260,3 @@ ss.head(10)
 
 This algorithm gives a LB score of 0.6 to 0.7.
 
-# After feature elimination
-
-select_cols = ['linear_acceleration_X_f_mean',
- 'orientation_Y_f_min',
- 'orientation_X_f_min',
- 'linear_acceleration_Y_f_abs_max',
- 'angular_velocity_Z_f_abs_max',
- 'angular_velocity_X_f_abs_min',
- 'linear_acceleration_Z_f_abs_max',
- 'orientation_Y_f_mean_change_of_abs_change',
- 'angular_velocity_X_f_mean',
- 'linear_acceleration_X_f_min',
- 'angular_velocity_X_f_std',
- 'orientation_Z_f_abs_min',
- 'orientation_Z_f_max',
- 'angular_velocity_X_f_min',
- 'angular_velocity_Z_f_abs_min',
- 'linear_acceleration_Z_f_mean_change_of_abs_change',
- 'angular_velocity_Y_f_std',
- 'linear_acceleration_Y_f_std',
- 'orientation_W_f_mean_abs_change',
- 'angular_velocity_X_f_max',
- 'total_angular_velocity_abs_max',
- 'orientation_W_f_abs_max',
- 'linear_acceleration_Z_f_mean_abs_change',
- 'angular_velocity_Y_f_min',
- 'angular_velocity_X_f_mean_change_of_abs_change',
- 'total_angular_velocity_min',
- 'angular_velocity_X_f_mean_abs_change',
- 'angular_velocity_Z_f_min']
